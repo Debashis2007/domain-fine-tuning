@@ -1,5 +1,7 @@
 # Use Case: Domain Fine-Tuning
 
+**YouTube walkthrough:** [Domain Fine Tuning — System Design #Shorts](https://youtu.be/nrosR3ZN65k)
+
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
@@ -47,6 +49,9 @@ Domain corpora → validate/quarantine → blessed manifest
 
 
 ## Design walkthrough (opens on GitHub)
+
+> **Watch on YouTube:** [Domain Fine Tuning — System Design #Shorts](https://youtu.be/nrosR3ZN65k)
+
 
 ![Design overview](docs/video/design-overview.gif)
 
