@@ -7,8 +7,8 @@
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
-**Parent system design:** [08 — Fine-Tuning / Eval Data Pipelines](../08-finetuning-eval-data-pipelines.md)  
-**Also references:** [03 — Training orchestration](../03-distributed-training-orchestration.md)
+**Parent system design:** [08 — Fine-Tuning / Eval Data Pipelines](./08-finetuning-eval-data-pipelines.md)  
+**Also references:** [03 — Training orchestration](./03-distributed-training-orchestration.md)
 
 ## Users & problem
 
@@ -27,9 +27,9 @@ A vertical product (legal, medical, code) needs a domain-adapted model. Training
 
 ```
 Domain corpora → validate/quarantine → blessed manifest
-  → train job ([03](../03-distributed-training-orchestration.md))
+  → train job ([03](./03-distributed-training-orchestration.md))
   → domain evals → registry artifact
-  → canary ([05](../05-model-monitoring-observability.md))
+  → canary ([05](./05-model-monitoring-observability.md))
 ```
 
 ## Specializations
